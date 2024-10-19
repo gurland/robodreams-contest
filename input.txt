@@ -1,0 +1,87 @@
+    The Zen of Python
+
+Beautiful is better than ugly.
+Explicit is better than implicit.
+Simple is better than complex.
+Complex is better than complicated.
+Flat is better than nested.
+Sparse is better than dense.
+Readability counts.
+Special cases aren't special enough to break the rules.
+Although practicality beats purity.
+Errors should never pass silently.
+Unless explicitly silenced.
+In the face of ambiguity, refuse the temptation to guess.
+There should be one-- and preferably only one --obvious way to do it.
+Although that way may not be obvious at first unless you're Dutch.
+Now is better than never.
+Although never is often better than *right* now.
+If the implementation is hard to explain, it's a bad idea.
+If the implementation is easy to explain, it may be a good idea.
+Namespaces are one honking great idea -- let's do more of those!
+
+General rules
+
+     Follow standard conventions.
+     Keep it simple stupid. Simpler is always better. Reduce complexity as much as possible.
+     Boy scout rule. Leave the campground cleaner than you found it.
+     Always find root cause. Always look for the root cause of a problem.
+
+ Design rules
+
+     Keep configurable data at high levels.
+     Prefer polymorphism to if/else or switch/case.
+     Separate multi-threading code.
+     Prevent over-configurability.
+     Use dependency injection.
+     Follow Law of Demeter. A class should know only its direct dependencies.
+
+ Names rules
+
+     Choose descriptive and unambiguous names.
+     Make meaningful distinction.
+     Use pronounceable names.
+     Use searchable names.
+     Replace magic numbers with named constants.
+     Avoid encodings. Don't append prefixes or type information.
+
+ Comments rules
+
+     Always try to explain yourself in code.
+     Don't be redundant.
+     Don't add obvious noise.
+     Don't use closing brace comments.
+     Don't comment out code. Just remove.
+     Use as explanation of intent.
+     Use as clarification of code.
+     Use as warning of consequences.
+
+ Source code structure
+
+     Separate concepts vertically.
+     Related code should appear vertically dense.
+     Declare variables close to their usage.
+     Dependent functions should be close.
+     Similar functions should be close.
+     Keep lines short.
+     Don't use horizontal alignment.
+     Don't break indentation.
+
+ Objects and data structures
+
+     Hide internal structure.
+     Prefer data structures.
+     Should be small.
+     Do one thing.
+     Small number of instance variables.
+     Base class should know nothing about their derivatives.
+     Better to have many functions than to pass some code into a function to select a behavior.
+     Prefer non-static methods to static methods.
+
+ Code smells
+
+     Rigidity. The software is difficult to change. A small change causes a cascade of subsequent changes.
+     Fragility. The software breaks in many places due to a single change.
+     Needless Complexity.
+     Needless Repetition.
+     Opacity. The code is hard to understand.
